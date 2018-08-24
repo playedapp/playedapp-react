@@ -4,19 +4,27 @@
   "private": true,
   "dependencies": {
     "apollo-boost": "^0.1.13",
+    "classnames": "^2.2.6",
     "graphql": "^0.13.2",
+    "prettier": "^1.14.2",
     "react": "^16.4.2",
     "react-apollo": "^2.1.11",
     "react-dom": "^16.4.2",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "tailwind": "node_modules/.bin/tailwind build src/App.css -o src/App.output.css -c ./tailwind.js",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
     "tailwindcss": "^0.6.5"
+  },
+  "prettier": {
+    "semi": false,
+    "trailingComma": "all"
   }
 }
