@@ -625,34 +625,6 @@ table {
  * @import "tailwindcss/components";
  */
 
-.container {
-  width: 100%;
-}
-
-@media (min-width: 576px) {
-  .container {
-    max-width: 576px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 992px) {
-  .container {
-    max-width: 992px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1200px;
-  }
-}
-
 /**
  * Here you would add any of your custom component classes; stuff that you'd
  * want loaded *before* the utilities so that the utilities could still
@@ -966,42 +938,6 @@ table {
 }
 
 .border-beige-darker {
-  border-color: #1c1a13;
-}
-
-.group:hover .group-hover\:border-transparent {
-  border-color: transparent;
-}
-
-.group:hover .group-hover\:border-white {
-  border-color: #fff;
-}
-
-.group:hover .group-hover\:border-black {
-  border-color: #000;
-}
-
-.group:hover .group-hover\:border-primary {
-  border-color: #314bfc;
-}
-
-.group:hover .group-hover\:border-primary-darker {
-  border-color: #3d00cc;
-}
-
-.group:hover .group-hover\:border-cyan {
-  border-color: #80fff7;
-}
-
-.group:hover .group-hover\:border-beige {
-  border-color: #f3f0e7;
-}
-
-.group:hover .group-hover\:border-beige-dark {
-  border-color: #89836b;
-}
-
-.group:hover .group-hover\:border-beige-darker {
   border-color: #1c1a13;
 }
 
@@ -1729,6 +1665,18 @@ table {
 
 .h-px {
   height: 1px;
+}
+
+.h-35px {
+  height: 35px;
+}
+
+.h-45px {
+  height: 45px;
+}
+
+.h-70px {
+  height: 70px;
 }
 
 .h-full {
@@ -3353,6 +3301,18 @@ table {
   width: 1px;
 }
 
+.w-35px {
+  width: 35px;
+}
+
+.w-45px {
+  width: 45px;
+}
+
+.w-70px {
+  width: 70px;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -3431,6 +3391,26 @@ table {
 
 .z-auto {
   z-index: auto;
+}
+
+.object-contain {
+  object-fit: contain;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+.object-fill {
+  object-fit: fill;
+}
+
+.object-none {
+  object-fit: none;
+}
+
+.object-scale {
+  object-fit: scale-down;
 }
 
 /**
@@ -3675,42 +3655,6 @@ table {
   }
 
   .sm\:border-beige-darker {
-    border-color: #1c1a13;
-  }
-
-  .group:hover .sm\:group-hover\:border-transparent {
-    border-color: transparent;
-  }
-
-  .group:hover .sm\:group-hover\:border-white {
-    border-color: #fff;
-  }
-
-  .group:hover .sm\:group-hover\:border-black {
-    border-color: #000;
-  }
-
-  .group:hover .sm\:group-hover\:border-primary {
-    border-color: #314bfc;
-  }
-
-  .group:hover .sm\:group-hover\:border-primary-darker {
-    border-color: #3d00cc;
-  }
-
-  .group:hover .sm\:group-hover\:border-cyan {
-    border-color: #80fff7;
-  }
-
-  .group:hover .sm\:group-hover\:border-beige {
-    border-color: #f3f0e7;
-  }
-
-  .group:hover .sm\:group-hover\:border-beige-dark {
-    border-color: #89836b;
-  }
-
-  .group:hover .sm\:group-hover\:border-beige-darker {
     border-color: #1c1a13;
   }
 
@@ -4438,6 +4382,18 @@ table {
 
   .sm\:h-px {
     height: 1px;
+  }
+
+  .sm\:h-35px {
+    height: 35px;
+  }
+
+  .sm\:h-45px {
+    height: 45px;
+  }
+
+  .sm\:h-70px {
+    height: 70px;
   }
 
   .sm\:h-full {
@@ -6046,6 +6002,18 @@ table {
     width: 1px;
   }
 
+  .sm\:w-35px {
+    width: 35px;
+  }
+
+  .sm\:w-45px {
+    width: 45px;
+  }
+
+  .sm\:w-70px {
+    width: 70px;
+  }
+
   .sm\:w-1\/2 {
     width: 50%;
   }
@@ -6354,42 +6322,6 @@ table {
   }
 
   .md\:border-beige-darker {
-    border-color: #1c1a13;
-  }
-
-  .group:hover .md\:group-hover\:border-transparent {
-    border-color: transparent;
-  }
-
-  .group:hover .md\:group-hover\:border-white {
-    border-color: #fff;
-  }
-
-  .group:hover .md\:group-hover\:border-black {
-    border-color: #000;
-  }
-
-  .group:hover .md\:group-hover\:border-primary {
-    border-color: #314bfc;
-  }
-
-  .group:hover .md\:group-hover\:border-primary-darker {
-    border-color: #3d00cc;
-  }
-
-  .group:hover .md\:group-hover\:border-cyan {
-    border-color: #80fff7;
-  }
-
-  .group:hover .md\:group-hover\:border-beige {
-    border-color: #f3f0e7;
-  }
-
-  .group:hover .md\:group-hover\:border-beige-dark {
-    border-color: #89836b;
-  }
-
-  .group:hover .md\:group-hover\:border-beige-darker {
     border-color: #1c1a13;
   }
 
@@ -7117,6 +7049,18 @@ table {
 
   .md\:h-px {
     height: 1px;
+  }
+
+  .md\:h-35px {
+    height: 35px;
+  }
+
+  .md\:h-45px {
+    height: 45px;
+  }
+
+  .md\:h-70px {
+    height: 70px;
   }
 
   .md\:h-full {
@@ -8725,6 +8669,18 @@ table {
     width: 1px;
   }
 
+  .md\:w-35px {
+    width: 35px;
+  }
+
+  .md\:w-45px {
+    width: 45px;
+  }
+
+  .md\:w-70px {
+    width: 70px;
+  }
+
   .md\:w-1\/2 {
     width: 50%;
   }
@@ -9033,42 +8989,6 @@ table {
   }
 
   .lg\:border-beige-darker {
-    border-color: #1c1a13;
-  }
-
-  .group:hover .lg\:group-hover\:border-transparent {
-    border-color: transparent;
-  }
-
-  .group:hover .lg\:group-hover\:border-white {
-    border-color: #fff;
-  }
-
-  .group:hover .lg\:group-hover\:border-black {
-    border-color: #000;
-  }
-
-  .group:hover .lg\:group-hover\:border-primary {
-    border-color: #314bfc;
-  }
-
-  .group:hover .lg\:group-hover\:border-primary-darker {
-    border-color: #3d00cc;
-  }
-
-  .group:hover .lg\:group-hover\:border-cyan {
-    border-color: #80fff7;
-  }
-
-  .group:hover .lg\:group-hover\:border-beige {
-    border-color: #f3f0e7;
-  }
-
-  .group:hover .lg\:group-hover\:border-beige-dark {
-    border-color: #89836b;
-  }
-
-  .group:hover .lg\:group-hover\:border-beige-darker {
     border-color: #1c1a13;
   }
 
@@ -9796,6 +9716,18 @@ table {
 
   .lg\:h-px {
     height: 1px;
+  }
+
+  .lg\:h-35px {
+    height: 35px;
+  }
+
+  .lg\:h-45px {
+    height: 45px;
+  }
+
+  .lg\:h-70px {
+    height: 70px;
   }
 
   .lg\:h-full {
@@ -11404,6 +11336,18 @@ table {
     width: 1px;
   }
 
+  .lg\:w-35px {
+    width: 35px;
+  }
+
+  .lg\:w-45px {
+    width: 45px;
+  }
+
+  .lg\:w-70px {
+    width: 70px;
+  }
+
   .lg\:w-1\/2 {
     width: 50%;
   }
@@ -11712,42 +11656,6 @@ table {
   }
 
   .xl\:border-beige-darker {
-    border-color: #1c1a13;
-  }
-
-  .group:hover .xl\:group-hover\:border-transparent {
-    border-color: transparent;
-  }
-
-  .group:hover .xl\:group-hover\:border-white {
-    border-color: #fff;
-  }
-
-  .group:hover .xl\:group-hover\:border-black {
-    border-color: #000;
-  }
-
-  .group:hover .xl\:group-hover\:border-primary {
-    border-color: #314bfc;
-  }
-
-  .group:hover .xl\:group-hover\:border-primary-darker {
-    border-color: #3d00cc;
-  }
-
-  .group:hover .xl\:group-hover\:border-cyan {
-    border-color: #80fff7;
-  }
-
-  .group:hover .xl\:group-hover\:border-beige {
-    border-color: #f3f0e7;
-  }
-
-  .group:hover .xl\:group-hover\:border-beige-dark {
-    border-color: #89836b;
-  }
-
-  .group:hover .xl\:group-hover\:border-beige-darker {
     border-color: #1c1a13;
   }
 
@@ -12475,6 +12383,18 @@ table {
 
   .xl\:h-px {
     height: 1px;
+  }
+
+  .xl\:h-35px {
+    height: 35px;
+  }
+
+  .xl\:h-45px {
+    height: 45px;
+  }
+
+  .xl\:h-70px {
+    height: 70px;
   }
 
   .xl\:h-full {
@@ -14081,6 +14001,18 @@ table {
 
   .xl\:w-px {
     width: 1px;
+  }
+
+  .xl\:w-35px {
+    width: 35px;
+  }
+
+  .xl\:w-45px {
+    width: 45px;
+  }
+
+  .xl\:w-70px {
+    width: 70px;
   }
 
   .xl\:w-1\/2 {

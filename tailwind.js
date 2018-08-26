@@ -343,6 +343,9 @@ module.exports = {
   width: {
     auto: "auto",
     px: "1px",
+    "35px": "35px",
+    "45px": "45px",
+    "70px": "70px",
     "1": "0.25rem",
     "2": "0.5rem",
     "3": "0.75rem",
@@ -390,6 +393,9 @@ module.exports = {
   height: {
     auto: "auto",
     px: "1px",
+    "35px": "35px",
+    "45px": "45px",
+    "70px": "70px",
     "1": "0.25rem",
     "2": "0.5rem",
     "3": "0.75rem",
@@ -765,10 +771,11 @@ module.exports = {
   */
 
   plugins: [
-    require("tailwindcss/plugins/container")({
-      // center: true,
-      // padding: '1rem',
-    }),
+    // require("tailwindcss/plugins/container")({
+    //   // center: true,
+    //   // padding: '1rem',
+    // }),
+    require("./src/tailwind-plugins/object-fit")(),
   ],
 
   /*

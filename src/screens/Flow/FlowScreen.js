@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from "react"
+import React, { Component } from "react"
 import { Query } from "react-apollo"
 import { Link } from "react-router-dom"
 import classNames from "classnames"
@@ -30,6 +30,9 @@ export default class FlowScreen extends Component {
                   ...anonymousParticipants(participants),
                 ]
 
+                const mainGame = games[0]
+                const expansions = games.slice(1)
+
                 return (
                   <div key={id}>
                     <div className="flex items-center">
@@ -45,11 +48,9 @@ export default class FlowScreen extends Component {
                                 })}
                               >
                                 <img
-                                  className="rounded-full border-beige border-2"
+                                  className="rounded-full border-beige border-2 w-35px h-35px"
                                   src={person.avatar.url}
                                   alt=""
-                                  width="35"
-                                  height="35"
                                 />
                               </Link>
                             ),
@@ -95,9 +96,9 @@ export default class FlowScreen extends Component {
                                 Played{" "}
                                 <Link
                                   className="text-primary no-underline font-bold"
-                                  to={`/games/${games[0].id}`}
+                                  to={`/games/${mainGame.id}`}
                                 >
-                                  {games[0].title}
+                                  {mainGame.title}
                                 </Link>
                                 {unknownParticipants.length === 1 &&
                                   " with one other"}
@@ -118,12 +119,10 @@ export default class FlowScreen extends Component {
                                         >
                                           <img
                                             className={classNames(
-                                              "rounded-full mr-m",
+                                              "rounded-full mr-m w-45px h-45px",
                                             )}
                                             src={person.avatar.url}
                                             alt=""
-                                            width="45"
-                                            height="45"
                                           />
                                         </Link>
                                         <div>
@@ -161,22 +160,42 @@ export default class FlowScreen extends Component {
                               </ol>
                             </div>
                             <div className="w-1/5">
-                              {games
-                                .slice(0, 1)
-                                .map(({ id, title, cover, averageRating }) => (
-                                  <Fragment key={id}>
-                                    <Link to={`/games/${id}`}>
-                                      <img
-                                        className="-mt-l border-4 border-white rounded"
-                                        src={cover.url}
-                                        alt={title}
-                                      />
-                                    </Link>
-                                    <span className="text-primary text-12 text-beige-dark">
-                                      {`Avg. ${averageRating}`}
-                                    </span>
-                                  </Fragment>
-                                ))}
+                              <Link
+                                to={`/games/${mainGame.id}`}
+                                className="block"
+                              >
+                                <img
+                                  className="-mt-l border-4 border-white rounded block"
+                                  src={mainGame.cover.url}
+                                  alt={mainGame.title}
+                                />
+                              </Link>
+                              <p className="mb-m mt-s text-12 text-beige-dark text-center">
+                                {`Avg. ${mainGame.averageRating}`}
+                              </p>
+                              {expansions.length > 0 && (
+                                <div className="flex flex-row items-center">
+                                  <span className="text-15 text-beige-dark -ml-s">
+                                    +
+                                  </span>
+                                  <ul className="list-reset flex flex-row">
+                                    {expansions.map(({ id, title, cover }) => (
+                                      <li key={id}>
+                                        <Link
+                                          to={`/games/${id}`}
+                                          className="block"
+                                        >
+                                          <img
+                                            className="block object-contain w-35px h-35px"
+                                            src={cover.url}
+                                            alt={title}
+                                          />
+                                        </Link>
+                                      </li>
+                                    ))}
+                                  </ul>
+                                </div>
+                              )}
                             </div>
                           </div>
                           <div className="flex content-between">
