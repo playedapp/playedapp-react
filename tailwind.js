@@ -55,8 +55,8 @@ let colors = {
 
   beige: "#f3f0e7",
   "beige-dark": "#89836b",
-  "beige-darker": "#1c1a13"
-};
+  "beige-darker": "#1c1a13",
+}
 
 module.exports = {
   /*
@@ -97,7 +97,7 @@ module.exports = {
     sm: "576px",
     md: "768px",
     lg: "992px",
-    xl: "1200px"
+    xl: "1200px",
   },
 
   /*
@@ -120,7 +120,7 @@ module.exports = {
 
   fonts: {
     fredoka: ["Fredoka One", "sans-serif"],
-    nunito: ["Nunito", "sans-serif"]
+    nunito: ["Nunito", "sans-serif"],
   },
 
   /*
@@ -146,7 +146,7 @@ module.exports = {
     11: "11px",
     12: "12px",
     15: "15px",
-    20: "20px"
+    20: "20px",
   },
 
   /*
@@ -167,7 +167,7 @@ module.exports = {
     normal: 400,
     semibold: 600,
     bold: 700,
-    extrabold: 800
+    extrabold: 800,
   },
 
   /*
@@ -186,7 +186,7 @@ module.exports = {
     none: 1,
     tight: 1.25,
     normal: 1.5,
-    loose: 2
+    loose: 2,
   },
 
   /*
@@ -204,7 +204,7 @@ module.exports = {
   tracking: {
     tight: "-0.05em",
     normal: "0",
-    wide: "0.05em"
+    wide: "0.05em",
   },
 
   /*
@@ -253,7 +253,7 @@ module.exports = {
   backgroundSize: {
     auto: "auto",
     cover: "cover",
-    contain: "contain"
+    contain: "contain",
   },
 
   /*
@@ -274,7 +274,7 @@ module.exports = {
     "0": "0",
     "2": "2px",
     "4": "4px",
-    "8": "8px"
+    "8": "8px",
   },
 
   /*
@@ -317,7 +317,7 @@ module.exports = {
     sm: ".125rem",
     default: ".25rem",
     lg: ".5rem",
-    full: "9999px"
+    full: "9999px",
   },
 
   /*
@@ -369,7 +369,7 @@ module.exports = {
     "1/6": "16.66667%",
     "5/6": "83.33333%",
     full: "100%",
-    screen: "100vw"
+    screen: "100vw",
   },
 
   /*
@@ -405,7 +405,7 @@ module.exports = {
     "48": "12rem",
     "64": "16rem",
     full: "100%",
-    screen: "100vh"
+    screen: "100vh",
   },
 
   /*
@@ -424,7 +424,7 @@ module.exports = {
 
   minWidth: {
     "0": "0",
-    full: "100%"
+    full: "100%",
   },
 
   /*
@@ -444,7 +444,7 @@ module.exports = {
   minHeight: {
     "0": "0",
     full: "100%",
-    screen: "100vh"
+    screen: "100vh",
   },
 
   /*
@@ -472,7 +472,7 @@ module.exports = {
     "3xl": "80rem",
     "4xl": "90rem",
     "5xl": "100rem",
-    full: "100%"
+    full: "100%",
   },
 
   /*
@@ -491,7 +491,7 @@ module.exports = {
 
   maxHeight: {
     full: "100%",
-    screen: "100vh"
+    screen: "100vh",
   },
 
   /*
@@ -510,6 +510,7 @@ module.exports = {
   */
 
   padding: {
+    0: 0,
     px: "1px",
     xxs: "2px",
     xs: "5px",
@@ -518,7 +519,7 @@ module.exports = {
     l: "19px",
     xl: "31px",
     xxl: "50px",
-    xxxl: "81px"
+    xxxl: "81px",
   },
 
   /*
@@ -546,7 +547,7 @@ module.exports = {
     l: "19px",
     xl: "31px",
     xxl: "50px",
-    xxxl: "81px"
+    xxxl: "81px",
   },
 
   /*
@@ -573,7 +574,7 @@ module.exports = {
     l: "19px",
     xl: "31px",
     xxl: "50px",
-    xxxl: "81px"
+    xxxl: "81px",
   },
 
   /*
@@ -596,7 +597,7 @@ module.exports = {
     default: "0 2px 2px 0 rgba(205, 201, 187, 0.6)",
     box: "0 6px 0 0 rgba(205, 201, 187)",
     inset: "0 1px 0 0 #fff, inset 0 2px 5px 0 #89836B",
-    none: "none"
+    none: "none",
   },
 
   /*
@@ -619,7 +620,7 @@ module.exports = {
     "20": 20,
     "30": 30,
     "40": 40,
-    "50": 50
+    "50": 50,
   },
 
   /*
@@ -640,7 +641,7 @@ module.exports = {
     "25": ".25",
     "50": ".5",
     "75": ".75",
-    "100": "1"
+    "100": "1",
   },
 
   /*
@@ -658,7 +659,7 @@ module.exports = {
   */
 
   svgFill: {
-    current: "currentColor"
+    current: "currentColor",
   },
 
   /*
@@ -676,7 +677,7 @@ module.exports = {
   */
 
   svgStroke: {
-    current: "currentColor"
+    current: "currentColor",
   },
 
   /*
@@ -746,7 +747,7 @@ module.exports = {
     visibility: ["responsive"],
     whitespace: ["responsive"],
     width: ["responsive"],
-    zIndex: ["responsive"]
+    zIndex: ["responsive"],
   },
 
   /*
@@ -767,7 +768,7 @@ module.exports = {
     require("tailwindcss/plugins/container")({
       // center: true,
       // padding: '1rem',
-    })
+    }),
   ],
 
   /*
@@ -783,6 +784,6 @@ module.exports = {
   options: {
     prefix: "",
     important: false,
-    separator: ":"
-  }
-};
+    separator: ":",
+  },
+}

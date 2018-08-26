@@ -36,6 +36,7 @@
  * @import "components/forms";
  */
 
+/* http://tobiasahlin.com/spinkit/ */
 .spinner {
   position: fixed;
   top: 0;
@@ -77,6 +78,15 @@
   40% {
     transform: scale(1);
   }
+}
+
+.visually-hidden {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
 
 /**

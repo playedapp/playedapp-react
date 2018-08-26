@@ -40,6 +40,7 @@ export default gql`
         url
       }
       location {
+        id
         name
       }
     }
