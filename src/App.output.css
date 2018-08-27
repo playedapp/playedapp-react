@@ -2810,11 +2810,11 @@ table {
 }
 
 .shadow {
-  box-shadow: 0 2px 2px 0 rgba(205, 201, 187, .6);
+  box-shadow: 0 1px 1px 0 rgba(205, 201, 187, .6);
 }
 
 .shadow-box {
-  box-shadow: 0 6px 0 0 rgba(205, 201, 187);
+  box-shadow: 0 3px 0 0 rgba(205, 201, 187);
 }
 
 .shadow-inset {
@@ -2826,11 +2826,11 @@ table {
 }
 
 .hover\:shadow:hover {
-  box-shadow: 0 2px 2px 0 rgba(205, 201, 187, .6);
+  box-shadow: 0 1px 1px 0 rgba(205, 201, 187, .6);
 }
 
 .hover\:shadow-box:hover {
-  box-shadow: 0 6px 0 0 rgba(205, 201, 187);
+  box-shadow: 0 3px 0 0 rgba(205, 201, 187);
 }
 
 .hover\:shadow-inset:hover {
@@ -2842,11 +2842,11 @@ table {
 }
 
 .focus\:shadow:focus {
-  box-shadow: 0 2px 2px 0 rgba(205, 201, 187, .6);
+  box-shadow: 0 1px 1px 0 rgba(205, 201, 187, .6);
 }
 
 .focus\:shadow-box:focus {
-  box-shadow: 0 6px 0 0 rgba(205, 201, 187);
+  box-shadow: 0 3px 0 0 rgba(205, 201, 187);
 }
 
 .focus\:shadow-inset:focus {
@@ -5519,11 +5519,11 @@ table {
   }
 
   .sm\:shadow {
-    box-shadow: 0 2px 2px 0 rgba(205, 201, 187, .6);
+    box-shadow: 0 1px 1px 0 rgba(205, 201, 187, .6);
   }
 
   .sm\:shadow-box {
-    box-shadow: 0 6px 0 0 rgba(205, 201, 187);
+    box-shadow: 0 3px 0 0 rgba(205, 201, 187);
   }
 
   .sm\:shadow-inset {
@@ -5535,11 +5535,11 @@ table {
   }
 
   .sm\:hover\:shadow:hover {
-    box-shadow: 0 2px 2px 0 rgba(205, 201, 187, .6);
+    box-shadow: 0 1px 1px 0 rgba(205, 201, 187, .6);
   }
 
   .sm\:hover\:shadow-box:hover {
-    box-shadow: 0 6px 0 0 rgba(205, 201, 187);
+    box-shadow: 0 3px 0 0 rgba(205, 201, 187);
   }
 
   .sm\:hover\:shadow-inset:hover {
@@ -5551,11 +5551,11 @@ table {
   }
 
   .sm\:focus\:shadow:focus {
-    box-shadow: 0 2px 2px 0 rgba(205, 201, 187, .6);
+    box-shadow: 0 1px 1px 0 rgba(205, 201, 187, .6);
   }
 
   .sm\:focus\:shadow-box:focus {
-    box-shadow: 0 6px 0 0 rgba(205, 201, 187);
+    box-shadow: 0 3px 0 0 rgba(205, 201, 187);
   }
 
   .sm\:focus\:shadow-inset:focus {
@@ -8186,11 +8186,11 @@ table {
   }
 
   .md\:shadow {
-    box-shadow: 0 2px 2px 0 rgba(205, 201, 187, .6);
+    box-shadow: 0 1px 1px 0 rgba(205, 201, 187, .6);
   }
 
   .md\:shadow-box {
-    box-shadow: 0 6px 0 0 rgba(205, 201, 187);
+    box-shadow: 0 3px 0 0 rgba(205, 201, 187);
   }
 
   .md\:shadow-inset {
@@ -8202,11 +8202,11 @@ table {
   }
 
   .md\:hover\:shadow:hover {
-    box-shadow: 0 2px 2px 0 rgba(205, 201, 187, .6);
+    box-shadow: 0 1px 1px 0 rgba(205, 201, 187, .6);
   }
 
   .md\:hover\:shadow-box:hover {
-    box-shadow: 0 6px 0 0 rgba(205, 201, 187);
+    box-shadow: 0 3px 0 0 rgba(205, 201, 187);
   }
 
   .md\:hover\:shadow-inset:hover {
@@ -8218,11 +8218,11 @@ table {
   }
 
   .md\:focus\:shadow:focus {
-    box-shadow: 0 2px 2px 0 rgba(205, 201, 187, .6);
+    box-shadow: 0 1px 1px 0 rgba(205, 201, 187, .6);
   }
 
   .md\:focus\:shadow-box:focus {
-    box-shadow: 0 6px 0 0 rgba(205, 201, 187);
+    box-shadow: 0 3px 0 0 rgba(205, 201, 187);
   }
 
   .md\:focus\:shadow-inset:focus {
@@ -10853,11 +10853,11 @@ table {
   }
 
   .lg\:shadow {
-    box-shadow: 0 2px 2px 0 rgba(205, 201, 187, .6);
+    box-shadow: 0 1px 1px 0 rgba(205, 201, 187, .6);
   }
 
   .lg\:shadow-box {
-    box-shadow: 0 6px 0 0 rgba(205, 201, 187);
+    box-shadow: 0 3px 0 0 rgba(205, 201, 187);
   }
 
   .lg\:shadow-inset {
@@ -10869,11 +10869,11 @@ table {
   }
 
   .lg\:hover\:shadow:hover {
-    box-shadow: 0 2px 2px 0 rgba(205, 201, 187, .6);
+    box-shadow: 0 1px 1px 0 rgba(205, 201, 187, .6);
   }
 
   .lg\:hover\:shadow-box:hover {
-    box-shadow: 0 6px 0 0 rgba(205, 201, 187);
+    box-shadow: 0 3px 0 0 rgba(205, 201, 187);
   }
 
   .lg\:hover\:shadow-inset:hover {
@@ -10885,11 +10885,11 @@ table {
   }
 
   .lg\:focus\:shadow:focus {
-    box-shadow: 0 2px 2px 0 rgba(205, 201, 187, .6);
+    box-shadow: 0 1px 1px 0 rgba(205, 201, 187, .6);
   }
 
   .lg\:focus\:shadow-box:focus {
-    box-shadow: 0 6px 0 0 rgba(205, 201, 187);
+    box-shadow: 0 3px 0 0 rgba(205, 201, 187);
   }
 
   .lg\:focus\:shadow-inset:focus {
@@ -13520,11 +13520,11 @@ table {
   }
 
   .xl\:shadow {
-    box-shadow: 0 2px 2px 0 rgba(205, 201, 187, .6);
+    box-shadow: 0 1px 1px 0 rgba(205, 201, 187, .6);
   }
 
   .xl\:shadow-box {
-    box-shadow: 0 6px 0 0 rgba(205, 201, 187);
+    box-shadow: 0 3px 0 0 rgba(205, 201, 187);
   }
 
   .xl\:shadow-inset {
@@ -13536,11 +13536,11 @@ table {
   }
 
   .xl\:hover\:shadow:hover {
-    box-shadow: 0 2px 2px 0 rgba(205, 201, 187, .6);
+    box-shadow: 0 1px 1px 0 rgba(205, 201, 187, .6);
   }
 
   .xl\:hover\:shadow-box:hover {
-    box-shadow: 0 6px 0 0 rgba(205, 201, 187);
+    box-shadow: 0 3px 0 0 rgba(205, 201, 187);
   }
 
   .xl\:hover\:shadow-inset:hover {
@@ -13552,11 +13552,11 @@ table {
   }
 
   .xl\:focus\:shadow:focus {
-    box-shadow: 0 2px 2px 0 rgba(205, 201, 187, .6);
+    box-shadow: 0 1px 1px 0 rgba(205, 201, 187, .6);
   }
 
   .xl\:focus\:shadow-box:focus {
-    box-shadow: 0 6px 0 0 rgba(205, 201, 187);
+    box-shadow: 0 3px 0 0 rgba(205, 201, 187);
   }
 
   .xl\:focus\:shadow-inset:focus {

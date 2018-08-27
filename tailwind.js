@@ -600,8 +600,8 @@ module.exports = {
   */
 
   shadows: {
-    default: "0 2px 2px 0 rgba(205, 201, 187, 0.6)",
-    box: "0 6px 0 0 rgba(205, 201, 187)",
+    default: "0 1px 1px 0 rgba(205, 201, 187, 0.6)",
+    box: "0 3px 0 0 rgba(205, 201, 187)",
     inset: "0 1px 0 0 #fff, inset 0 2px 5px 0 #89836B",
     none: "none",
   },

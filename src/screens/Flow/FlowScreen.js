@@ -12,6 +12,7 @@ import {
 import flowQuery from "../../queries/flow"
 import Spinner from "../../components/Spinner"
 import StarRating from "../../components/StarRating"
+import ErrorScreen from "../Error/ErrorScreen"
 
 export default class FlowScreen extends Component {
   render() {
@@ -21,7 +22,7 @@ export default class FlowScreen extends Component {
         <Query query={flowQuery}>
           {({ data, loading, error }) => {
             if (loading) return <Spinner />
-            if (error) return "Error!"
+            if (error) return <ErrorScreen />
 
             return data.flow.map(
               ({ id, participants, games, images, location }) => {
@@ -88,7 +89,7 @@ export default class FlowScreen extends Component {
                           />
                         ))}
                       </div>
-                      <div className="bg-white p-m">
+                      <div className="bg-white shadow p-m">
                         <div className="flex flex-col">
                           <div className="flex">
                             <div className="w-4/5 pr-m">

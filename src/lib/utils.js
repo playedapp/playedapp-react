@@ -1,3 +1,5 @@
+import React from "react"
+
 // Based on https://stackoverflow.com/a/13627586
 export const toOrdinal = number => {
   const j = number % 10
@@ -30,3 +32,9 @@ export const notFollowedParticipants = participants => {
 export const anonymousParticipants = participants => {
   return participants.filter(participant => !participant.person)
 }
+
+export const withContext = context => Component => () => (
+  <context.Consumer>
+    {context => <Component context={context} />}
+  </context.Consumer>
+)
