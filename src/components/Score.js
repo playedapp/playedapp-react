@@ -4,11 +4,11 @@ import PropTypes from "prop-types"
 const Score = ({ score, size }) => {
   return (
     <div
-      className="bg-primary rounded w-45px h-45px flex justify-center items-center"
+      className="bg-primary rounded w-45px h-45px flex justify-center items-center border-4 border-white"
       style={{ transform: "rotate(-45deg)" }}
     >
       <span
-        className="block font-fredoka text-20 text-cyan"
+        className="block font-fredoka text-20 text-cyan antialiased"
         style={{ transform: "rotate(45deg)" }}
       >
         {score}

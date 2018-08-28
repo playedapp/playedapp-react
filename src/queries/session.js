@@ -8,6 +8,8 @@ export default gql`
         title
         cover {
           url
+          width
+          height
         }
         averageRating
       }
