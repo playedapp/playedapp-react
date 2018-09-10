@@ -37,18 +37,6 @@
  */
 
 /* http://tobiasahlin.com/spinkit/ */
-.spinner {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: config("colors.beige");
-}
-
 .spinner__bounce-1,
 .spinner__bounce-2,
 .spinner__bounce-3 {

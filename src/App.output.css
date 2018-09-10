@@ -643,18 +643,6 @@ table {
 
 /* http://tobiasahlin.com/spinkit/ */
 
-.spinner {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #f3f0e7;
-}
-
 .spinner__bounce-1,
 .spinner__bounce-2,
 .spinner__bounce-3 {
@@ -1026,7 +1014,7 @@ table {
 }
 
 .rounded-lg {
-  border-radius: .5rem;
+  border-radius: 8px;
 }
 
 .rounded-full {
@@ -1094,23 +1082,23 @@ table {
 }
 
 .rounded-t-lg {
-  border-top-left-radius: .5rem;
-  border-top-right-radius: .5rem;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 .rounded-r-lg {
-  border-top-right-radius: .5rem;
-  border-bottom-right-radius: .5rem;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 .rounded-b-lg {
-  border-bottom-right-radius: .5rem;
-  border-bottom-left-radius: .5rem;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 
 .rounded-l-lg {
-  border-top-left-radius: .5rem;
-  border-bottom-left-radius: .5rem;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 
 .rounded-t-full {
@@ -1182,19 +1170,19 @@ table {
 }
 
 .rounded-tl-lg {
-  border-top-left-radius: .5rem;
+  border-top-left-radius: 8px;
 }
 
 .rounded-tr-lg {
-  border-top-right-radius: .5rem;
+  border-top-right-radius: 8px;
 }
 
 .rounded-br-lg {
-  border-bottom-right-radius: .5rem;
+  border-bottom-right-radius: 8px;
 }
 
 .rounded-bl-lg {
-  border-bottom-left-radius: .5rem;
+  border-bottom-left-radius: 8px;
 }
 
 .rounded-tl-full {
@@ -2925,6 +2913,42 @@ table {
   color: #1c1a13;
 }
 
+.group:hover .group-hover\:text-transparent {
+  color: transparent;
+}
+
+.group:hover .group-hover\:text-white {
+  color: #fff;
+}
+
+.group:hover .group-hover\:text-black {
+  color: #000;
+}
+
+.group:hover .group-hover\:text-primary {
+  color: #314bfc;
+}
+
+.group:hover .group-hover\:text-primary-darker {
+  color: #3d00cc;
+}
+
+.group:hover .group-hover\:text-cyan {
+  color: #80fff7;
+}
+
+.group:hover .group-hover\:text-beige {
+  color: #f3f0e7;
+}
+
+.group:hover .group-hover\:text-beige-dark {
+  color: #89836b;
+}
+
+.group:hover .group-hover\:text-beige-darker {
+  color: #1c1a13;
+}
+
 .hover\:text-transparent:hover {
   color: transparent;
 }
@@ -3299,6 +3323,10 @@ table {
 
 .w-px {
   width: 1px;
+}
+
+.w-22px {
+  width: 22px;
 }
 
 .w-35px {
@@ -3743,7 +3771,7 @@ table {
   }
 
   .sm\:rounded-lg {
-    border-radius: .5rem;
+    border-radius: 8px;
   }
 
   .sm\:rounded-full {
@@ -3811,23 +3839,23 @@ table {
   }
 
   .sm\:rounded-t-lg {
-    border-top-left-radius: .5rem;
-    border-top-right-radius: .5rem;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
   }
 
   .sm\:rounded-r-lg {
-    border-top-right-radius: .5rem;
-    border-bottom-right-radius: .5rem;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
   }
 
   .sm\:rounded-b-lg {
-    border-bottom-right-radius: .5rem;
-    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
   }
 
   .sm\:rounded-l-lg {
-    border-top-left-radius: .5rem;
-    border-bottom-left-radius: .5rem;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
   }
 
   .sm\:rounded-t-full {
@@ -3899,19 +3927,19 @@ table {
   }
 
   .sm\:rounded-tl-lg {
-    border-top-left-radius: .5rem;
+    border-top-left-radius: 8px;
   }
 
   .sm\:rounded-tr-lg {
-    border-top-right-radius: .5rem;
+    border-top-right-radius: 8px;
   }
 
   .sm\:rounded-br-lg {
-    border-bottom-right-radius: .5rem;
+    border-bottom-right-radius: 8px;
   }
 
   .sm\:rounded-bl-lg {
-    border-bottom-left-radius: .5rem;
+    border-bottom-left-radius: 8px;
   }
 
   .sm\:rounded-tl-full {
@@ -5626,6 +5654,42 @@ table {
     color: #1c1a13;
   }
 
+  .group:hover .sm\:group-hover\:text-transparent {
+    color: transparent;
+  }
+
+  .group:hover .sm\:group-hover\:text-white {
+    color: #fff;
+  }
+
+  .group:hover .sm\:group-hover\:text-black {
+    color: #000;
+  }
+
+  .group:hover .sm\:group-hover\:text-primary {
+    color: #314bfc;
+  }
+
+  .group:hover .sm\:group-hover\:text-primary-darker {
+    color: #3d00cc;
+  }
+
+  .group:hover .sm\:group-hover\:text-cyan {
+    color: #80fff7;
+  }
+
+  .group:hover .sm\:group-hover\:text-beige {
+    color: #f3f0e7;
+  }
+
+  .group:hover .sm\:group-hover\:text-beige-dark {
+    color: #89836b;
+  }
+
+  .group:hover .sm\:group-hover\:text-beige-darker {
+    color: #1c1a13;
+  }
+
   .sm\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -6000,6 +6064,10 @@ table {
 
   .sm\:w-px {
     width: 1px;
+  }
+
+  .sm\:w-22px {
+    width: 22px;
   }
 
   .sm\:w-35px {
@@ -6410,7 +6478,7 @@ table {
   }
 
   .md\:rounded-lg {
-    border-radius: .5rem;
+    border-radius: 8px;
   }
 
   .md\:rounded-full {
@@ -6478,23 +6546,23 @@ table {
   }
 
   .md\:rounded-t-lg {
-    border-top-left-radius: .5rem;
-    border-top-right-radius: .5rem;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
   }
 
   .md\:rounded-r-lg {
-    border-top-right-radius: .5rem;
-    border-bottom-right-radius: .5rem;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
   }
 
   .md\:rounded-b-lg {
-    border-bottom-right-radius: .5rem;
-    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
   }
 
   .md\:rounded-l-lg {
-    border-top-left-radius: .5rem;
-    border-bottom-left-radius: .5rem;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
   }
 
   .md\:rounded-t-full {
@@ -6566,19 +6634,19 @@ table {
   }
 
   .md\:rounded-tl-lg {
-    border-top-left-radius: .5rem;
+    border-top-left-radius: 8px;
   }
 
   .md\:rounded-tr-lg {
-    border-top-right-radius: .5rem;
+    border-top-right-radius: 8px;
   }
 
   .md\:rounded-br-lg {
-    border-bottom-right-radius: .5rem;
+    border-bottom-right-radius: 8px;
   }
 
   .md\:rounded-bl-lg {
-    border-bottom-left-radius: .5rem;
+    border-bottom-left-radius: 8px;
   }
 
   .md\:rounded-tl-full {
@@ -8293,6 +8361,42 @@ table {
     color: #1c1a13;
   }
 
+  .group:hover .md\:group-hover\:text-transparent {
+    color: transparent;
+  }
+
+  .group:hover .md\:group-hover\:text-white {
+    color: #fff;
+  }
+
+  .group:hover .md\:group-hover\:text-black {
+    color: #000;
+  }
+
+  .group:hover .md\:group-hover\:text-primary {
+    color: #314bfc;
+  }
+
+  .group:hover .md\:group-hover\:text-primary-darker {
+    color: #3d00cc;
+  }
+
+  .group:hover .md\:group-hover\:text-cyan {
+    color: #80fff7;
+  }
+
+  .group:hover .md\:group-hover\:text-beige {
+    color: #f3f0e7;
+  }
+
+  .group:hover .md\:group-hover\:text-beige-dark {
+    color: #89836b;
+  }
+
+  .group:hover .md\:group-hover\:text-beige-darker {
+    color: #1c1a13;
+  }
+
   .md\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -8667,6 +8771,10 @@ table {
 
   .md\:w-px {
     width: 1px;
+  }
+
+  .md\:w-22px {
+    width: 22px;
   }
 
   .md\:w-35px {
@@ -9077,7 +9185,7 @@ table {
   }
 
   .lg\:rounded-lg {
-    border-radius: .5rem;
+    border-radius: 8px;
   }
 
   .lg\:rounded-full {
@@ -9145,23 +9253,23 @@ table {
   }
 
   .lg\:rounded-t-lg {
-    border-top-left-radius: .5rem;
-    border-top-right-radius: .5rem;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
   }
 
   .lg\:rounded-r-lg {
-    border-top-right-radius: .5rem;
-    border-bottom-right-radius: .5rem;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
   }
 
   .lg\:rounded-b-lg {
-    border-bottom-right-radius: .5rem;
-    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
   }
 
   .lg\:rounded-l-lg {
-    border-top-left-radius: .5rem;
-    border-bottom-left-radius: .5rem;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
   }
 
   .lg\:rounded-t-full {
@@ -9233,19 +9341,19 @@ table {
   }
 
   .lg\:rounded-tl-lg {
-    border-top-left-radius: .5rem;
+    border-top-left-radius: 8px;
   }
 
   .lg\:rounded-tr-lg {
-    border-top-right-radius: .5rem;
+    border-top-right-radius: 8px;
   }
 
   .lg\:rounded-br-lg {
-    border-bottom-right-radius: .5rem;
+    border-bottom-right-radius: 8px;
   }
 
   .lg\:rounded-bl-lg {
-    border-bottom-left-radius: .5rem;
+    border-bottom-left-radius: 8px;
   }
 
   .lg\:rounded-tl-full {
@@ -10960,6 +11068,42 @@ table {
     color: #1c1a13;
   }
 
+  .group:hover .lg\:group-hover\:text-transparent {
+    color: transparent;
+  }
+
+  .group:hover .lg\:group-hover\:text-white {
+    color: #fff;
+  }
+
+  .group:hover .lg\:group-hover\:text-black {
+    color: #000;
+  }
+
+  .group:hover .lg\:group-hover\:text-primary {
+    color: #314bfc;
+  }
+
+  .group:hover .lg\:group-hover\:text-primary-darker {
+    color: #3d00cc;
+  }
+
+  .group:hover .lg\:group-hover\:text-cyan {
+    color: #80fff7;
+  }
+
+  .group:hover .lg\:group-hover\:text-beige {
+    color: #f3f0e7;
+  }
+
+  .group:hover .lg\:group-hover\:text-beige-dark {
+    color: #89836b;
+  }
+
+  .group:hover .lg\:group-hover\:text-beige-darker {
+    color: #1c1a13;
+  }
+
   .lg\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -11334,6 +11478,10 @@ table {
 
   .lg\:w-px {
     width: 1px;
+  }
+
+  .lg\:w-22px {
+    width: 22px;
   }
 
   .lg\:w-35px {
@@ -11744,7 +11892,7 @@ table {
   }
 
   .xl\:rounded-lg {
-    border-radius: .5rem;
+    border-radius: 8px;
   }
 
   .xl\:rounded-full {
@@ -11812,23 +11960,23 @@ table {
   }
 
   .xl\:rounded-t-lg {
-    border-top-left-radius: .5rem;
-    border-top-right-radius: .5rem;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
   }
 
   .xl\:rounded-r-lg {
-    border-top-right-radius: .5rem;
-    border-bottom-right-radius: .5rem;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
   }
 
   .xl\:rounded-b-lg {
-    border-bottom-right-radius: .5rem;
-    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
   }
 
   .xl\:rounded-l-lg {
-    border-top-left-radius: .5rem;
-    border-bottom-left-radius: .5rem;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
   }
 
   .xl\:rounded-t-full {
@@ -11900,19 +12048,19 @@ table {
   }
 
   .xl\:rounded-tl-lg {
-    border-top-left-radius: .5rem;
+    border-top-left-radius: 8px;
   }
 
   .xl\:rounded-tr-lg {
-    border-top-right-radius: .5rem;
+    border-top-right-radius: 8px;
   }
 
   .xl\:rounded-br-lg {
-    border-bottom-right-radius: .5rem;
+    border-bottom-right-radius: 8px;
   }
 
   .xl\:rounded-bl-lg {
-    border-bottom-left-radius: .5rem;
+    border-bottom-left-radius: 8px;
   }
 
   .xl\:rounded-tl-full {
@@ -13627,6 +13775,42 @@ table {
     color: #1c1a13;
   }
 
+  .group:hover .xl\:group-hover\:text-transparent {
+    color: transparent;
+  }
+
+  .group:hover .xl\:group-hover\:text-white {
+    color: #fff;
+  }
+
+  .group:hover .xl\:group-hover\:text-black {
+    color: #000;
+  }
+
+  .group:hover .xl\:group-hover\:text-primary {
+    color: #314bfc;
+  }
+
+  .group:hover .xl\:group-hover\:text-primary-darker {
+    color: #3d00cc;
+  }
+
+  .group:hover .xl\:group-hover\:text-cyan {
+    color: #80fff7;
+  }
+
+  .group:hover .xl\:group-hover\:text-beige {
+    color: #f3f0e7;
+  }
+
+  .group:hover .xl\:group-hover\:text-beige-dark {
+    color: #89836b;
+  }
+
+  .group:hover .xl\:group-hover\:text-beige-darker {
+    color: #1c1a13;
+  }
+
   .xl\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -14001,6 +14185,10 @@ table {
 
   .xl\:w-px {
     width: 1px;
+  }
+
+  .xl\:w-22px {
+    width: 22px;
   }
 
   .xl\:w-35px {
