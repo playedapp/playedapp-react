@@ -17,6 +17,14 @@ export default gql`
         id
         url
       }
+      playtime
+      variants
+      location {
+        name
+      }
+      participants {
+        id
+      }
     }
   }
 `

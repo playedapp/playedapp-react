@@ -19,8 +19,6 @@ export default class Tabs extends Component {
   currentTabRef = React.createRef()
   borderRef = React.createRef()
 
-  componentDidUpdate(prevProps, prevState) {}
-
   render() {
     const { screens } = this.props
     const { currentIndex } = this.state
@@ -35,7 +33,7 @@ export default class Tabs extends Component {
               ref={currentIndex === index && this.currentTabRef}
               onClick={() => this.setState({ currentIndex: index })}
               className={classNames(
-                "font-nunito text-15 font-semibold px-m py-s border-b-2 border-transparent",
+                "font-nunito text-15 font-semibold px-m py-m border-b-2 border-transparent",
                 {
                   "text-primary border-cyan": currentIndex === index,
                   "text-beige-darker": currentIndex !== index,

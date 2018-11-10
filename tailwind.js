@@ -316,7 +316,7 @@ module.exports = {
     none: "0",
     sm: ".125rem",
     default: ".25rem",
-    lg: ".5rem",
+    lg: "8px",
     full: "9999px",
   },
 
@@ -343,6 +343,7 @@ module.exports = {
   width: {
     auto: "auto",
     px: "1px",
+    "22px": "22px",
     "35px": "35px",
     "45px": "45px",
     "70px": "70px",
@@ -744,7 +745,7 @@ module.exports = {
     svgStroke: [],
     tableLayout: ["responsive"],
     textAlign: ["responsive"],
-    textColors: ["responsive", "hover", "focus"],
+    textColors: ["responsive", "hover", "focus", "group-hover"],
     textSizes: ["responsive"],
     textStyle: ["responsive", "hover", "focus"],
     tracking: ["responsive"],
