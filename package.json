@@ -8,11 +8,11 @@
     "date-fns": "^1.29.0",
     "graphql": "^0.13.2",
     "prettier": "^1.14.2",
-    "react": "^16.4.2",
+    "react": "^16.6.1",
     "react-apollo": "^2.1.11",
-    "react-dom": "^16.4.2",
+    "react-dom": "^16.6.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.4"
+    "react-scripts": "2.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -22,8 +22,6 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.6",
-    "eslint": "^5.4.0",
     "eslint-config-prettier": "^3.0.1",
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-prettier": "^2.6.2",
@@ -33,5 +31,11 @@
   "prettier": {
     "semi": false,
     "trailingComma": "all"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
